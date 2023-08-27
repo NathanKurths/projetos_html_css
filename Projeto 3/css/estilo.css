@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&family=Viaoda+Libre&display=swap');
+
+:root{
+    font-size:62.5%;
+}
+
+html{
+    font-family: 'Viaoda Libre','Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
+header{
+    background-color:#162028;
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+}
+
+.header__logo{
+    color:white;
+    font-size:4rem;
+    margin-left:20rem;
+}
+
+.header__ul{
+    display:flex;
+    gap:5rem;
+    margin:2rem;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    font-family: sans-serif;
+    text-transform:uppercase;
+    font-size:1.7rem;
+    color:#425564;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+main{
+    padding-top:10rem;
+    text-align:center;
+    align-items:center;
+    min-height: calc(100vh - 1rem);
+}
+
+main h1{
+    font-size:3rem;
+}
+
+main p{
+    font-size:2rem;
+    width:70%;
+    margin:0 auto;
+}
+
+.container{
+    gap:30px;
+    width:60vw;
+    display:flex;
+    margin:10rem auto;
+    flex-wrap: wrap;
+}
+
+.container span{
+    font-size:2rem;
+}
+
+.detalhe{
+    padding-top:10rem;
+    background-color:#003d52;
+    color:white;
+    width:100vw;
+    height:100vh;
+    text-align:center;
+}
+
+.detalhe h1{
+    text-transform:uppercase;
+    width:70vw;
+    font-size:5rem;
+    margin:0 15rem;
+    text-align:left;
+}
+
+.titulo{
+    padding:7rem 0;
+    text-shadow:1px 1px 1px #0b171f
+}
+
+.detalhe p{
+    font-size:2rem;
+    font-family: sans-serif;
+    width:50vw;
+    text-align:left;
+    margin:0 15rem;
+}
+
+footer{
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 1rem;
+    width: 100vw;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:1.4rem;
+}
